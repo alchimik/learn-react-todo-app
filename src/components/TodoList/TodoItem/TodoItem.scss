@@ -1,0 +1,19 @@
+.todo-item {
+  display: flex;
+
+  button {
+    margin-left: 10px;
+  }
+}
+
+.todo-item__label {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.todo-item--done .todo-item__label {
+  text-decoration: line-through;
+}
+.todo-item--important .todo-item__label {
+  color: tomato;
+}
